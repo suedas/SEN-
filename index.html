@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <title>SEN!</title>
+    <link rel="stylesheet" href="anasayfa.css">
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="anasayfa.js"></script>
+  </head>
+  <body  >
+   <div id="giriş">
+     <h2>SEN </h2>
+   </div>
+   <div id="giriş2">
+    <h2>Kİ </h2>
+  </div>
+   <div id="isim"> 
+     <h3>Bilgisayar Mühendisi </h3>
+     <a href="menu.html"><img id="git" src="images.png " title="GO"></a>
+    
+   </div>
+
+   <script> 
+    $("#isim").ready(function() { 
+        $("h3").mouseover(function() { 
+            $("h3").css("color", "yellow"); 
+        }); 
+        $("h3").mouseout(function() {
+          $("h3").css("color" ,"white")
+          
+        })
+    });    
+</script> 
+
+
+   
+
+
+  </body>
+</html>

@@ -1,0 +1,316 @@
+
+body{
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(45deg,#ee7752,#e73c7e,#23a6d5,blue);
+  background-size: 500% 500%;
+  animation: animasyon 3s ease infinite;
+  animation-direction: alternate;
+}
+@keyframes animasyon{
+  0%{background-position: 0%;}
+  100%{background-position: 100%;}
+}
+
+#giriş{ 
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -200px;
+  margin-top: -550px;
+ 
+}
+
+#giriş h2{
+  font-size: 200px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  width: 400px;
+  height: 400px;
+}
+#giriş2{ 
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -100px;
+  margin-top: -350px;
+ 
+}
+#giriş2 h2{
+  font-size: 200px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  width: 400px;
+  height: 400px;
+
+}
+
+#isim{
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -430px;
+  margin-top: -30px;
+}
+h3{
+  font-size: 80px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:white;
+
+}
+#git{
+  padding: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: 130px;
+  width: 130px;
+  margin-left: -50px;
+  margin-top: 180px;
+  
+}
+
+.menu1{
+  background:rgb(182, 179, 179);
+  padding: 0;
+  margin: 0;
+  border: 0;
+  list-style: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul.menu2 a{
+  text-decoration: none;
+  color: rgb(3, 3, 3);
+}
+
+
+ul.menu2{
+  background:rgb(255, 94, 0);
+  height: 120 rgb(39, 39, 39);
+  padding: 0;
+  margin:0;
+}
+ul.menu2:hover{
+  background:  rgb(241, 131, 58);
+}
+ul.menu2 >li>a{
+  display: block;
+  font-size: 60px;
+  line-height: 100px;
+
+  
+
+}
+ul.menu2 li{
+  position: relative;
+  list-style-type: none;
+}
+ul.menu2 >li:hover ul{
+  display: block;
+  border-bottom: 1px  solid white;
+  
+}
+ul.menu2 ul li:hover a{ 
+  background:rgb(71, 240, 19);
+  
+}
+ul.menu2 ul{
+  background:#2c3249 ;
+  display: none;
+  
+  
+}
+ul.menu2 ul li a{
+  display: block;
+  padding: 10px 15px;
+  color: aliceblue;
+  text-align: center;
+}
+
+
+#ilksütun{
+  background: white;
+
+}
+#sonsütun{
+  background: white;
+
+}
+#video{
+  padding-left: 80px;
+  margin-bottom: 100px;
+  
+
+}
+.bilgisayılırmı{
+  background: white;
+
+}
+.bilgisayılırmı table{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+
+}
+
+.Bilgi h3{
+    background:rgb(81, 148, 17);
+    height: 120 rgb(39, 39, 39);
+    padding:0px;
+    margin:0;
+    color: black;
+  
+}
+.bilgisayılırmı table h4{  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  font-style: italic;
+  color:black;
+}
+
+
+.Neden{
+  background: rgb(255, 255, 255);
+}
+.ünlü h3{
+  background:rgb(0, 87, 250);
+    height: 120 rgb(39, 39, 39);
+    padding:0px;
+    margin:0;
+    color: black;
+    text-align: center;
+
+}
+.Neden table img {
+  margin-top:0;
+  margin-left:50px;
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s; 
+  }
+  .Neden table img:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s; 
+    box-shadow: 10px 10px 5px #888888;
+    z-index: 2;
+    position:relative;
+    }
+  .Neden table h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    color: cornflowerblue;
+  }
+ #harezmi{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight:bold;
+ }
+ #cezeri{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight:bold;
+ }
+ #charles{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight:bold;
+ }
+
+ 
+.birlikte{
+  background: white;
+}
+.birlikte table img {
+  margin-top:0;
+  margin-left:50px;
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s; 
+  }
+  .birlikte table img:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s; 
+    box-shadow: 10px 10px 5px #888888;
+    z-index: 2;
+    position:relative;
+    }
+
+
+.birlikte table{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+
+}
+#ilkres{padding-left: 20px;
+margin-top:30px;}
+.Birlik h3{
+  background:rgb(237, 253, 10);
+    height: 120 rgb(39, 39, 39);
+    padding:0;
+    margin:0;
+    color: black;
+  text-align: center;
+
+}
+.ilet{
+  background: gray;
+}
+.iletişim h3{
+  background:black;
+    height: 120 rgb(39, 39, 39);
+    padding:10px;
+    margin:0;
+}
+table.ana
+{
+  width: 100%;
+  height: 100%;
+}
+td.ceyrek
+{
+  width: 25%;
+  height: 100%;
+}
+td.yarim
+{
+  width: 50%;
+  height: 100%;
+}
+tr.ucbolum
+{
+  height: 33%;
+  width: 100%;
+}
+.menu
+{
+  text-align: center;
+}
+.menubutton
+{
+  background-color: red;
+  height: 40px;
+}
+a
+{
+  text-decoration: none;
+}
+
+
+
+
